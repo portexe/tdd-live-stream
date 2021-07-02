@@ -1,0 +1,8 @@
+.main {
+  margin-bottom: 10px;
+}
+.error {
+  font-size: 10px;
+  color: #e9896a;
+  font-weight: bolder;
+}

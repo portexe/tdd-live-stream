@@ -1,0 +1,46 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+
+.row {
+  display: flex;
+}
+
+.row div {
+  margin: 5px;
+  padding: 5px;
+  box-shadow: 0px 0px 2px gray;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.name,
+.phone,
+.email {
+  background-color: #e4e4e4;
+}
+
+.name {
+  width: 50px;
+}
+.phone,
+.email {
+  width: 150px;
+}
+
+.edit,
+.delete {
+  width: 50px;
+  color: white;
+  cursor: pointer;
+}
+
+.edit {
+  background-color: #387c6d;
+}
+.delete {
+  background-color: #e9896a;
+}
